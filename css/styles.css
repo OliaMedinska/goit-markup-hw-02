@@ -22,11 +22,13 @@ body {
     background-color: var(--second-text-color);
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 /* приховала h */
 .visually-hidden {
-    position: absolute;
+        position: absolute;
         white-space: nowrap;
         width: 1px;
         height: 1px;
@@ -42,7 +44,6 @@ body {
 .list {
     list-style: none;
 }
-
 
 /* header */
 
@@ -137,14 +138,16 @@ address{
 .city {
     color: var(--second-text-color);
     text-decoration: none;
-}
+    line-height: 1.71;
+    }
 .city:hover, .city:focus{
     color: var(--accent-text-color);
-}
+    }
 
 .contact-footer {
     color: var(--second-text-color);
-}
+    line-height: 1.71;
+    }
 
 
 /*main index*/
@@ -159,6 +162,7 @@ address{
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--second-text-color);
+    text-transform: uppercase;
 }
 
 .button.primary {
@@ -172,6 +176,8 @@ address{
     display: flex;
     align-items: center;
     text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button.primary:hover, .button.primary:focus {
@@ -190,17 +196,14 @@ address{
 /*переваги*/
 /* section title */
 .section .section-title{
-color: var(--title-text-color);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-font-family: 'Roboto';
+text-transform: uppercase;
 }
 /* section text  */
 .section .section-text{
     color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -233,18 +236,15 @@ font-family: 'Roboto';
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
 }
 
 .card-title.members {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
-        color: var(--title-text-color);
 }
 
 .card-text.members {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
         color: var(--primary-text-color);
@@ -259,28 +259,33 @@ font-family: 'Roboto';
 .button .secondary {
     color: var(--title-text-color);
     background-color: var(--button-background-color);
-    font-family: inherit
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .button .secondary:hover, .button .secondary:focus {
     color: var(--second-text-color);
     background-color: var(--accent-text-color);
-    font-family: inherit
+
 }
 
 /* title */
-.section .portfolio-title{
+a .portfolio-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+    text-decoration: none;
 }
 /* text */
-.section .portfolio-text{
-    font-weight: 400;
+a .portfolio-text{
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    text-decoration: none;
 }
