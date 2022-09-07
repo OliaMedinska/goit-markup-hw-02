@@ -139,6 +139,7 @@ address{
     color: var(--second-text-color);
     text-decoration: none;
     line-height: 1.71;
+    font-size: 14px;
     }
 .city:hover, .city:focus{
     color: var(--accent-text-color);
@@ -147,6 +148,7 @@ address{
 .contact-footer {
     color: var(--second-text-color);
     line-height: 1.71;
+    font-size: 14px;
     }
 
 
